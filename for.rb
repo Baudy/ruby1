@@ -26,3 +26,5 @@ def pow(base_num, pow_num)
 end
 
 puts pow(5, 12)
+
+#testing git on the laptop
