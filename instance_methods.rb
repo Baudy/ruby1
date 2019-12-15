@@ -43,7 +43,7 @@ p1 = "What colour are apples?\n(a) red\n(b) purple\n(c) orange"
 p2 = "What colour are bananas?\n(a) pink\n(b) red\n(c) yellow"
 p3 = "What colour are pears?\n(a) yellow\n(b) green\n(c) orange"
 
-questions = [   #building an array of objects
+questions = [#an array of objects
   Question.new(p1, "a"),
   Question.new(p2, "c"),
   Question.new(p3, "b")
