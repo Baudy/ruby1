@@ -14,9 +14,9 @@ module Ergast
     standingsArray = []
     standings = data['MRData']['StandingsTable']['StandingsLists'][0]['DriverStandings']
     standings.each do |driver|
-      standingsArray.push([driver['position'], driver['Driver']['givenName'], driver['Driver']['familyName'], driver['Constructors'][0]['name'], driver['points']].join(' '))
+      standingsArray.push [driver['position'], driver['Driver']['givenName'], driver['Driver']['familyName'], driver['Constructors'][0]['name'], driver['points']].join(' ')
       #puts [driver['position'], driver['Driver']['givenName'], driver['Driver']['familyName'], driver['Constructors'][0]['name'], driver['points']].join(' ')
-      return standingsArray
+      return standings
     end
   end
 end
