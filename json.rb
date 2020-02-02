@@ -27,6 +27,6 @@ def constructorstandings(year)
 end
 
 
-puts driverstandings("2019")
+puts driverstandings("1978")
 puts "\n------------------\n\n"
-puts constructorstandings("2019")
+puts constructorstandings("1978")
